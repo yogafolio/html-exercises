@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<title>Belajar ke 9 - Pengaplikasian Form pada HTML</title>
+</head>
+<body>
+<h1>Get Started</h1>
+<p>Harap untuk mengisi formulir pendaftaran berikut ini dengan benar</p>
+<fieldset>
+	<legend>Data Pendaftar</legend>
+<form action="http://localhost/latihan/latihan9/kirimdata.html" method="GET">
+	<label>Nama Lengkap :</label>
+	<input type="text" name="nama"><br>
+
+	<label>Usia :</label>
+	<input type="number" name="usia">Tahun<br>
+
+	Jenis Kelamin :
+	<input type="radio" name="jkl" id="pria" value="Pria">
+	<label for="pria">Pria</label>
+	<input type="radio" name="jkl" id="wanita" value="Wanita">
+	<label for="wanita">Wanita</label><br>
+
+	<label>Tanggal Lahir :</label>
+	<input type="date" name="tgllahir"><br>
+
+	<label>Alamat Lengkap :</label>
+	<textarea name="alamat" id="alamat" cols="40" rows="3"></textarea><br>
+
+	<label>Hobi :</label>
+	<input type="checkbox" name="hobi" id="musik" value="Musik">
+	<label for="musik">Musik</label><br>
+	<input type="checkbox" name="hobi" id="promgaming" value="Programing">
+	<label for="promgaming">Programing</label><br>
+	<input type="checkbox" name="hobi" id="membaca" value="Membaca">
+	<label for="membaca">Membaca</label><br>
+
+	<label>Email :</label>
+	<input type="email" name="email"><br>
+
+	<label>No. HP :</label>
+	<input type="tel" name="hp"><br>
+
+	<input type="submit" name="submit" value="kirim"></input>
+</form></fieldset>
+</body>
+</html>
